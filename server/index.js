@@ -31,6 +31,11 @@ mongoose.connect(config.mongoURI,
 app.get('/', (req,res) => res.send("Hello World! 안녕하세요")) 
 
 
+app.get('/api/hello', (req,res) => {
+  res.send("안녕하세요~")
+})
+
+
 //사용자의 정보를 서버로 전달.
 app.post("/api/users/register", (req,res) => { 
    
