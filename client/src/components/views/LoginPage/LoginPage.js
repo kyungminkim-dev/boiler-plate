@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react' //useState?
 import Axios from 'axios'
 import { useDispatch } from 'react-redux';
@@ -60,3 +61,16 @@ function LoginPage(props) {
 }
 
 export default withRouter(LoginPage)
+=======
+import React from 'react'
+
+function LoginPage() {
+    return (
+        <div>
+            LoginPage
+        </div>
+    )
+}
+
+export default LoginPage
+>>>>>>> origin/master

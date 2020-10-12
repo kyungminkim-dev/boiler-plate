@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { registerUser } from '../../../_actions/user_action';
@@ -78,8 +79,20 @@ function RegisterPage(props) {
                     회원 가입
                 </button>
             </form>
+=======
+import React from 'react'
+
+function RegisterPage() {
+    return (
+        <div>
+            RegisterPage
+>>>>>>> origin/master
         </div>
     )
 }
 
+<<<<<<< HEAD
 export default withRouter(RegisterPage)
+=======
+export default RegisterPage
+>>>>>>> origin/master

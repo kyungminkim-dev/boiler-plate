@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react'
 import axios from 'axios';
 import { PromiseProvider } from 'mongoose';
@@ -32,8 +33,20 @@ function LandingPage(props) {
             <button onClick={onClickHandler}>
                 로그아웃
             </button>
+=======
+import React from 'react'
+
+function LandingPage() {
+    return (
+        <div>
+            LandingPage
+>>>>>>> origin/master
         </div>
     )
 }
 
+<<<<<<< HEAD
 export default withRouter(LandingPage)
+=======
+export default LandingPage
+>>>>>>> origin/master
